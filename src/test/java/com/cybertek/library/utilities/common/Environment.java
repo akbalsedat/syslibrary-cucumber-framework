@@ -24,8 +24,6 @@ public class Environment {
             }
             input = new FileInputStream(path);
             properties.load(input);
-
-
             input.close();
         } catch (Exception e) {
             e.printStackTrace();
