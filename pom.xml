@@ -7,12 +7,14 @@
     <groupId>com.syslibrary</groupId>
     <artifactId>syslibrary-cucumber-framework</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <properties>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -73,6 +75,7 @@
                     <forkMode>perthread</forkMode>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>net.masterthought</groupId>
                 <artifactId>maven-cucumber-reporting</artifactId>
@@ -95,6 +98,7 @@
                     </execution>
                 </executions>
             </plugin>
+
         </plugins>
     </build>
 
